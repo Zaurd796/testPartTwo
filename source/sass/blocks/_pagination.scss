@@ -1,0 +1,35 @@
+.pagination {
+  margin-bottom: 8.9em;
+
+  &__inner {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+  }
+
+  &__item.active {
+    .pagination__link {
+      background-color: $lightYellow;
+      border-radius: 50%;
+    }
+  }
+
+  &__link {
+    display: block;
+    padding: 0 15px;
+
+    font-family: $IstokWeb;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 2.1;
+    color: #000000;
+    text-decoration: none;
+  }
+}

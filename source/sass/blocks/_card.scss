@@ -1,0 +1,106 @@
+.card {
+  width: 136px;
+  padding: 0.5em 0.5em 0.8em 0.5em;
+  border: 1px solid $black;
+
+  &__img {
+    margin-bottom: 0.6em;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__content-title {
+    margin-top: 0;
+    margin-bottom: 1em;
+
+    font-family: $IstokWeb;
+    font-weight: 700;
+    font-size: inherit;
+    line-height: 2.4;
+    color: #000000;
+  }
+
+  &__content-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+
+    img {
+      margin-right: 0.4em;
+    }
+  }
+
+  &__content-block-name {
+    margin: 0;
+  }
+
+  &__content-block-status {
+    display: flex;
+    align-items: center;
+    margin: 0;
+
+    font-size: 0.43rem;
+    line-height: 1.6;
+    color: $yellow;
+
+    &::after {
+      display: block;
+      width: 10px;
+      height: 9px;
+      margin-left: 2px;
+
+      background-image: url("../img/star.png");
+      content: "";
+    }
+  }
+
+  &__content-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+  }
+
+  &__content-features {
+    line-height: 1.7;
+  }
+
+  &__content-filter {
+    padding: 0 1em;
+
+    font-size: 0.43rem;
+    line-height: 2.43;
+
+    border: 1px solid $gold;
+    border-radius: 4px;
+  }
+
+  &__content-price {
+    padding: 0 1.29em;
+
+    font-size: 0.43rem;
+    line-height: 2.43;
+
+    background: $lightYellow;
+    border-radius: 4px;
+  }
+
+  &__button {
+    width: 100%;
+    max-width: 115px;
+    padding: 4px 0;
+    align-self: center;
+
+    font-family: $IstokWeb;
+    font-size: 0.625rem;
+    line-height: 1.6;
+    color: inherit;
+
+    background: linear-gradient(90deg, #fdd446 0%, #f79b47 100%);
+    border-radius: 8px;
+    border: none;
+  }
+}

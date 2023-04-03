@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Istok Web";
+  font-display: swap;
+  src: url("../fonts/IstokWebBold.woff2") format("woff2"),
+    url("../fonts/IstokWebBold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Istok Web";
+  font-display: swap;
+  src: url("../fonts/IstokWebRegular.woff2") format("woff2"),
+    url("../fonts/IstokWebRegular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-display: swap;
+  src: url("../fonts/RubikMedium.woff2") format("woff2"),
+    url("../fonts/RubikMedium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-display: swap;
+  src: url("../fonts/RubikRegular.woff2") format("woff2"),
+    url("../fonts/RubikRegular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
